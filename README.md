@@ -9,7 +9,7 @@ def f(x):
   print(x, end='')
 ```
 
-Since `function.py` is provided in the repository, you can test that it works by running
+Since `function.py` with the exact same source as above is provided in the repository, you can test that it works by running
 
 ```bash
 python3 make_quine.py < function.py > gen_quine.py
